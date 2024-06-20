@@ -1,0 +1,47 @@
+nav {
+  background-color: rgb(233, 221, 222);
+  height: 70px;
+  /* TO TAKE THE TEXT IN THE NAV TO THE RIGHT */
+  display: flex;
+  /* TO TAKE THE 3 TEXT UN THE NAV VBAR TO THE RIGHT */
+  justify-content: space-between;
+  /* paddding here creates space in the nav block to the left and to the right */
+  padding: 15px;
+  align-items: center;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* here is to sperate the the text in the nav bar  */
+.menu {
+  display: flex;
+  gap: 15px;
+}
+.container h1 {
+  font-size: 80px;
+  background-color: transparent;
+}
+.container {
+  padding-top: 200;
+  margin-left: 80px;
+}
+
+body {
+  background-image: url(../day1/image/warzone.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container p {
+  width: 500px;
+  font-size: 20px;
+  color: #e0d8d8;
+  font-style: unset;
+}

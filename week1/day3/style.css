@@ -1,0 +1,26 @@
+ h1 {              /*selector */
+
+    color: blue; 
+    font-size: 40PX; 
+    font-weight: 100PX;  /*declarations*/
+    text-align: center; 
+    
+}
+
+div {
+    background-image: url("../day3/image.jpg");
+    width: 500px;
+    height: 300px;
+}
+body{
+    background-image: url(../day2/vacation/images/beach.jpg);
+    background-repeat: no-repeat;
+    background-position:cover ;
+    background-size: cover  ;
+}
+p{
+    margin: 80px;
+    text-align: justify;
+    padding: 20px 10px 0 5px;
+    font-size: 20px;
+}
